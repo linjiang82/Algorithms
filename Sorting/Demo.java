@@ -9,7 +9,8 @@ public class Demo {
 //        arr = BubbleSort.sort(arr);
 //        arr = InsertSort.sort(arr);
 //        arr = ShellSort.sort(arr);
-        arr = CountSort.sort(arr);
+//        arr = CountSort.sort(arr);
+        arr=MergeSort.sort(arr);
         long endTime = System.nanoTime();
         for (int i : arr) {
             System.out.println(i);
